@@ -1,0 +1,21 @@
+{
+  "name": "adapt-tkhub-starter",
+  "version": "0.2.0",
+  "framework": "^2.0.16",
+  "homepage": "https://github.com/Acutilis/adapt-tkhub-starter",
+  "issues": "https://github.com/Acutilis/adapt-tkhub-starter/issues",
+  "repository": "git://github.com/Acutilis/adapt-tkhub-starter.git",
+  "displayName" : "tkhub Starter",
+  "extension" : "tkhub-starter",
+  "description": "An template from trackingHub-compatible tracking extensions.",
+  "main": "/js/starterChannelHandler.js",
+  "authors": [
+          "jPablo Caballero <pablo@acutilis.com>"
+  ],
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_tkhub-starter"
+}

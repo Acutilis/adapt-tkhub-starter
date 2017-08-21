@@ -1,0 +1,24 @@
+// to be added to course/config.json
+
+{
+   "_tkhub-starter": {
+        "_isEnabled": true,
+        "_channels": [
+
+            {
+                "_name": "myCustomChannel",
+                "_isEnabled": true,
+                "_reportsEvents": true,
+                "_tracksState": true,
+                "_isStateSource": true,
+                "_isStateStore": true,
+                "_isLaunchManager": true,
+                "_ignoreEvents": [],
+
+                "_apiRoot": "http://localhost:8000/API/",
+                "_isFakeApiRoot": false,
+            }
+        ]
+    },
+}
+
