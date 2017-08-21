@@ -12,14 +12,14 @@ A sample Adapt extension that is compatible with adapt-trackingHub, and serves a
 
 This extension works, and implements all the major concepts that a trackingHub-compatible extension could implement. However, since it is just only an skeleton/example to make it easier for anybody to get started with her/his own tracking extension, its functionality is mimimal (and with little practical use).
 
-To use in your dev environment:
-  1- make sure you have installed [adapt-trackingHub](https://github.com/Acutilis/adapt-trackingHub) first. 
-  2- Clone this repo anywhere in your computer, outside of your Adapt course.
-  3- Copy the adapt-tkhub-starter folder to the src/extensions folder of your Adapt course.
-  4- Modify the config of your course to include the config shown in the example file.
-     Use the following configuration for trackingHub:
+To use in your dev environment:a
 
-```
+1. make sure you have installed [adapt-trackingHub](https://github.com/Acutilis/adapt-trackingHub) first. 
+2. Clone this repo anywhere in your computer, outside of your Adapt course.
+3. Copy the adapt-tkhub-starter folder to the src/extensions folder of your Adapt course.
+4. Modify the config of your course to include the config shown in the example file.
+     Use the following configuration for trackingHub:
+  ```
   "_trackingHub": {
         "_isEnabled": true,
         "_courseID" : "http://www.acme.com/courses/4f4f4f",
@@ -34,9 +34,8 @@ To use in your dev environment:
             "_ignoreEvents": []
         }
    }
-```
-
-5- From the source directory of your course, build your course (grunt dev), and in another terminal run the dev server (grunt server).
+  ```
+5. From the source directory of your course, build your course (grunt dev), and in another terminal run the dev server (grunt server).
 
 To access the course, open your browser (open the console in dev tools) and go to http://localhost:9001/?userID=1. You will see a couple of errors: a 404 and another one. This is because the example extension is supposed to communicate with a server. If you haven't started the example server, it's normal that you get this error.
 
@@ -49,8 +48,8 @@ Open a terminal window for this.
 
 To run the apiServer, you need Python 2.7. It is recommended to use virtual envs in Python to keep things clean (or better yet, Conda environments).
 
-  1- Create a virtual environment (or conda environment), and get into it (source activace <name_of_env>), or, if you just want to use your global Python, that's fine.
-  2- Install Tornado:
+1. Create a virtual environment (or conda environment), and get into it (source activace <name_of_env>), or, if you just want to use your global Python, that's fine.
+2. Install Tornado:
   ```
        pip install tornado   (for normal virtualenv or using the global Python installation)
   ```
@@ -58,8 +57,7 @@ To run the apiServer, you need Python 2.7. It is recommended to use virtual envs
   ```
        conda install tornado   (If you're using Conda or miniConda)
   ```
-
-  3- Run the apiServer:
+3. Run the apiServer:
   ```
      python apiServer.py
   ```
