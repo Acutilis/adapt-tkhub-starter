@@ -10,6 +10,7 @@ define([
     _CHID: 'starterChannelHandler',
     _OWNSTATEKEY: 'starter',
     _OWNSTATE: null,
+    _COMPOSER: msgComposer,
 
     // DATA to be used internally by this ChannelHandler:
     _userID: null,
